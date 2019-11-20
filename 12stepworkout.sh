@@ -3,19 +3,11 @@ for i in jumping_jacks wall_sit push_ups abdominal_crunch step_up_onto_chair squ
 do
 	say $i
 	echo $i
-	say "starting in 10 seconds"
-	sleep 8
+	say "starting in 10 seconds[[slnc 80000]]"
 	
 	say $i
-	say "start in 3"
-	say "2"
-	say "1"
-	sleep 10
-	say 10
-	sleep 10
-	say 20
-	sleep 10
-	say "done.  Rest for 10"
+	say "starting in 3[[slnc 800]]2[[slnc 800]]1"
+	say "[[slnc 10000]]10[[slnc 10000]]20[[slnc10000]]Done. Rest for 10 seconds."
 	say "next exercise is "
 done
 say "you are all done."
